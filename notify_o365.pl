@@ -68,7 +68,7 @@ if ($alert eq 'host') {
 		sections => [
 			{
 				"title" => "Details",
-				@$facts,
+				"facts" => $facts,
 			},
 		]
 	};
